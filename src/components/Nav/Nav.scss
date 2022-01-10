@@ -1,0 +1,49 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.nav {
+  position: fixed;
+  width: 3rem;
+  top: 2.5rem;
+  right: 3rem;
+  background-color: $color-tertiary;
+  border-radius: 40px;
+  padding: 0.5rem;
+}
+
+.nav__content {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .nav {
+    display: none;
+  }
+
+  .nav__content {
+    display: block;
+    position: fixed;
+    right: 10vw;
+    background-color: $color-tertiary;
+    width: 79.8vw;
+    border-radius: 40px;
+    &__links {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      &--link {
+        color: $color-secondary;
+        text-decoration: none;
+        font-size: 25px;
+        margin-right:2rem;
+      }
+      &--link:hover {
+        color: $color-primary;
+        border-bottom: 5px solid $color-primary;
+      }
+      &__list {
+        padding-top: 1rem;
+      }
+    }
+  }
+}

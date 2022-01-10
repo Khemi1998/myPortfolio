@@ -1,0 +1,37 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.home {
+    height: 89vh;
+    width: 80vw;
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: $color-primary;
+    scroll-behavior: smooth;
+    border-left: 10px solid $color-secondary;
+    border-bottom: 10px solid $color-secondary;
+    border-right: 10px solid $color-primary;
+    border-top: 10px solid $color-primary;
+}
+
+@media screen and (min-width: 992px) {
+    .home {
+        border-left: 17px solid $color-secondary;
+        border-bottom: 17px solid $color-secondary;
+        border-right: 17px solid $color-primary;
+        border-top: 17px solid $color-primary;
+        display: inline;
+        text-align: left;
+
+        &__heading {
+            margin-top: 15rem;
+            margin-left: 10rem;
+        }
+
+        &__subheading {
+            margin-left: 25rem;
+        }
+    }
+}

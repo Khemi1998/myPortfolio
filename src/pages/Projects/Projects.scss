@@ -1,0 +1,49 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.projects {
+  height: 89vh;
+  width: 80vw;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: $color-secondary;
+  border-left: 10px solid $color-secondary;
+  border-right: 10px solid $color-primary;
+
+  &__container {
+    margin-top: 2vh;
+    width: 100%;
+    height: 25.5rem;
+    background-image: linear-gradient(to left, $color-primary , $color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__carousel {
+      width: 95%;
+      display: flex;
+      overflow-x: auto;
+    }
+
+    &--swipe {
+      height: 1rem;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects {
+    border-left: 17px solid $color-secondary;
+    border-right: 17px solid $color-primary;
+    margin: 10rem 0;
+    &__container {
+      height: 30rem;
+        
+      &--swipe {
+        margin-top: 1em;
+      }
+    }
+  }
+}

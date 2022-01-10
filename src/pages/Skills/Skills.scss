@@ -1,0 +1,83 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.skills {
+  height: 89vh;
+  width: 80vw;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: $color-secondary;
+  border-left: 10px solid $color-secondary;
+  border-right: 10px solid $color-primary;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 20vh;
+    column-gap: 2rem;
+    font-size: 30px;
+    &--icon {
+      color: $color-primary;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .skills {
+    border-left: 17px solid $color-secondary;
+    border-right: 17px solid $color-primary;
+    &__grid {
+      font-size: 60px;
+      &--icon {
+        padding: 0rem 8rem;
+      }
+      &--icon:hover::after {
+        font-family: "Questrial", sans-serif;
+        font-size: 30px;
+      }
+      &--icon:hover {
+        padding: 0;
+      }
+    }
+  }
+
+  .fa-react:hover:after {
+    content: " React";
+  }
+
+  .fa-java:hover:after {
+    content: " java";
+  }
+
+  .fa-html5:hover:after {
+    content: " HTML";
+  }
+
+  .fa-sass:hover:after {
+    content: " SASS";
+  }
+
+  .fa-css3:hover:after {
+    content: " CSS";
+  }
+
+  .fa-js:hover:after {
+    content: " Javascript";
+  }
+
+  .fa-python:hover:after {
+    content: " python (self-taught)";
+  }
+
+  .fa-code:hover:after {
+    content: " npm-testing";
+  }
+
+  .fa-laptop-code:hover:after {
+    content: " verilog";
+  }
+}

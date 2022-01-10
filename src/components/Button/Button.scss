@@ -1,0 +1,28 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.button {
+  min-width: 80px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  margin: 0.5rem;
+  background-color: transparent;
+}
+
+.primary {
+  border: 2px solid $color-secondary;
+  color: $color-secondary;
+}
+
+.primary:hover {
+  box-shadow: 0 0 2px 2px $color-secondary;
+}
+
+.secondary {
+  border: 2px solid $color-primary;
+  color: $color-primary;
+}
+
+.secondary:hover {
+  box-shadow: 0 0 2px 2px $color-primary;
+}
