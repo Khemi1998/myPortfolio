@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.edb35ff7.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.7e424326.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.7e424326.chunk.js.map",
-    "runtime-main.js": "/myPortfolio/static/js/runtime-main.a147cbd2.js",
-    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.a147cbd2.js.map",
-    "static/js/2.4410b8ef.chunk.js": "/myPortfolio/static/js/2.4410b8ef.chunk.js",
-    "static/js/2.4410b8ef.chunk.js.map": "/myPortfolio/static/js/2.4410b8ef.chunk.js.map",
-    "static/js/3.d84ac3c6.chunk.js": "/myPortfolio/static/js/3.d84ac3c6.chunk.js",
-    "static/js/3.d84ac3c6.chunk.js.map": "/myPortfolio/static/js/3.d84ac3c6.chunk.js.map",
+    "main.js": "/myPortfolio/static/js/main.f019f687.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.f019f687.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.42edc7d2.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.42edc7d2.js.map",
+    "static/js/2.2b919bbd.chunk.js": "/myPortfolio/static/js/2.2b919bbd.chunk.js",
+    "static/js/2.2b919bbd.chunk.js.map": "/myPortfolio/static/js/2.2b919bbd.chunk.js.map",
+    "static/js/3.ae01d197.chunk.js": "/myPortfolio/static/js/3.ae01d197.chunk.js",
+    "static/js/3.ae01d197.chunk.js.map": "/myPortfolio/static/js/3.ae01d197.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
     "static/css/main.edb35ff7.chunk.css.map": "/myPortfolio/static/css/main.edb35ff7.chunk.css.map",
-    "static/js/2.4410b8ef.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.4410b8ef.chunk.js.LICENSE.txt",
+    "static/js/2.2b919bbd.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.2b919bbd.chunk.js.LICENSE.txt",
     "static/media/Picture1.2739c9fe.jpg": "/myPortfolio/static/media/Picture1.2739c9fe.jpg",
     "static/media/calculator.848aded6.png": "/myPortfolio/static/media/calculator.848aded6.png",
     "static/media/cross.08c5229d.svg": "/myPortfolio/static/media/cross.08c5229d.svg",
@@ -23,9 +23,9 @@
     "static/media/ticketTracker.f5898ac7.png": "/myPortfolio/static/media/ticketTracker.f5898ac7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a147cbd2.js",
-    "static/js/2.4410b8ef.chunk.js",
+    "static/js/runtime-main.42edc7d2.js",
+    "static/js/2.2b919bbd.chunk.js",
     "static/css/main.edb35ff7.chunk.css",
-    "static/js/main.7e424326.chunk.js"
+    "static/js/main.f019f687.chunk.js"
   ]
 }
