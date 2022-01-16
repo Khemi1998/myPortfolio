@@ -48,9 +48,20 @@
   .fa-react:hover:after {
     content: " React";
   }
+  .fa-js:hover:after {
+    content: " Javascript";
+  }
+
+  .fa-code:hover:after {
+    content: " npm-testing";
+  }
 
   .fa-java:hover:after {
     content: " java";
+  }
+
+  .fa-leaf:hover:after {
+    content: " Spring";
   }
 
   .fa-html5:hover:after {
@@ -65,19 +76,7 @@
     content: " CSS";
   }
 
-  .fa-js:hover:after {
-    content: " Javascript";
-  }
-
-  .fa-python:hover:after {
-    content: " python (self-taught)";
-  }
-
-  .fa-code:hover:after {
-    content: " npm-testing";
-  }
-
   .fa-laptop-code:hover:after {
-    content: " verilog";
+    content: " Java Testing";
   }
 }
