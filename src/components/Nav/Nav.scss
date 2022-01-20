@@ -22,10 +22,10 @@
   .nav__content {
     display: block;
     position: fixed;
-    right: 10vw;
+    border: 5px solid $color-primary;
+    right: 9.5vw;
     background-color: $color-tertiary;
-    width: 79.4vw;
-    border-radius: 40px;
+    width: 79.2vw;
     &__links {
       list-style: none;
       display: flex;
@@ -42,7 +42,7 @@
         border-bottom: 5px solid $color-primary;
       }
       &__list {
-        padding-top: 1rem;
+        padding-top: 0.1rem;
       }
     }
   }
