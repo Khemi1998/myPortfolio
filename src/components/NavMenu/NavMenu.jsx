@@ -16,29 +16,19 @@ const NavMenu = (props) => {
           />
           <ul onClick={toggleNav} class="nav-menu__links">
             <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#home">
-                Home
-              </a>
+              <a class="nav-menu__links--link" href="#home">Home</a>
             </li>
             <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#projects">
-                Projects
-              </a>
+              <a class="nav-menu__links--link" href="#projects">Projects</a>
             </li>
             <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#about">
-                About me
-              </a>
+              <a class="nav-menu__links--link" href="#about">About me</a>
             </li>
             <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#skills">
-                Skills
-              </a>
+              <a class="nav-menu__links--link" href="#skills">Skills</a>
             </li>
             <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#contact">
-                Contact
-              </a>
+              <a class="nav-menu__links--link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
