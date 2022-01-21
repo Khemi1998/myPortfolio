@@ -22,10 +22,9 @@
   .nav__content {
     display: block;
     position: fixed;
-    border: 0.3vw solid $color-primary;
-    right: 9.5vw;
+    right: 10.2vw;
     background-color: $color-tertiary;
-    width: 80.1%;
+    width: 79.5%;
     &__links {
       list-style: none;
       display: flex;
@@ -35,7 +34,7 @@
         color: $color-secondary;
         text-decoration: none;
         font-size: 25px;
-        margin-right:2rem;
+        margin-right: 2rem;
       }
       &--link:hover {
         color: $color-primary;
@@ -45,5 +44,15 @@
         padding-top: 0.1rem;
       }
     }
+  }
+  .noborer {
+    border: none;
+  }
+
+  .border {
+    border: 0.3vw solid $color-primary;
+    right: 10.2vw;
+    width: 79%;
+    border-radius: 5px;
   }
 }

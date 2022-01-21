@@ -1,7 +1,7 @@
 import "./Nav.scss";
 import menu from "../../assets/images/hamburger.svg";
 import NavMenu from "../NavMenu/NavMenu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Nav = () => {
   const [showNav, setShowNav] = useState(false);
@@ -10,6 +10,23 @@ const Nav = () => {
     setShowNav(!showNav);
   };
 
+  const [border, setBorder] = useState("nav__content noborder")
+
+  const listenScrollEvent = (event) => {
+  if (window.scrollY < 73) {
+    return setBorder("nav__content noborder")
+  } else if (window.scrollY > 70) {
+    return setBorder("nav__content border")
+  }
+}
+
+useEffect(() => {
+  window.addEventListener('scroll', listenScrollEvent);
+
+  return () =>
+    window.removeEventListener('scroll', listenScrollEvent);
+}, []);
+
   console.log(showNav);
   return (
     <>
@@ -17,32 +34,22 @@ const Nav = () => {
 
       <img onClick={toggleNav} className="nav" src={menu} alt="menu" />
 
-      <div className="nav__content">
+      <div className={border}>
         <ul className="nav__content__links">
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#home">
-              Home
-            </a>
+            <a className="nav__content__links--link" href="#home">Home</a>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#projects">
-              Projects
-            </a>
+            <a className="nav__content__links--link" href="#projects">Projects</a>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#about">
-              About me
-            </a>
+            <a className="nav__content__links--link" href="#about">About me</a>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#skills">
-              Skills
-            </a>
+            <a className="nav__content__links--link" href="#skills">Skills</a>
           </li>
           <li className="nav__content__links__list">
-            <a className="nav__content__links--link" href="#contact">
-              Contact
-            </a>
+            <a className="nav__content__links--link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
