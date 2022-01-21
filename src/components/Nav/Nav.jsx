@@ -10,10 +10,12 @@ const Nav = () => {
     setShowNav(!showNav);
   };
 
+  console.log(showNav);
   return (
     <>
       {showNav && <NavMenu toggleNav={toggleNav} />}
-      <img className="nav" src={menu} alt="menu" />
+      
+      <img onClick={toggleNav} className="nav" src={menu} alt="menu" />
 
       <div className="nav__content">
         <ul className="nav__content__links">
