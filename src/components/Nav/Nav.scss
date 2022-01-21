@@ -22,10 +22,10 @@
   .nav__content {
     display: block;
     position: fixed;
-    border: 5px solid $color-primary;
+    border: 0.3vw solid $color-primary;
     right: 9.5vw;
     background-color: $color-tertiary;
-    width: 79.2vw;
+    width: 80.1%;
     &__links {
       list-style: none;
       display: flex;
