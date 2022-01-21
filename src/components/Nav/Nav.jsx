@@ -16,29 +16,29 @@ const Nav = () => {
       <img className="nav" src={menu} alt="menu" />
 
       <div className="nav__content">
-        <ul class="nav__content__links">
-          <li class="nav__content__links__list">
-            <a class="nav__content__links--link" href="#home">
+        <ul className="nav__content__links">
+          <li className="nav__content__links__list">
+            <a className="nav__content__links--link" href="#home">
               Home
             </a>
           </li>
-          <li class="nav__content__links__list">
-            <a class="nav__content__links--link" href="#projects">
+          <li className="nav__content__links__list">
+            <a className="nav__content__links--link" href="#projects">
               Projects
             </a>
           </li>
-          <li class="nav__content__links__list">
-            <a class="nav__content__links--link" href="#about">
+          <li className="nav__content__links__list">
+            <a className="nav__content__links--link" href="#about">
               About me
             </a>
           </li>
-          <li class="nav__content__links__list">
-            <a class="nav__content__links--link" href="#skills">
+          <li className="nav__content__links__list">
+            <a className="nav__content__links--link" href="#skills">
               Skills
             </a>
           </li>
-          <li class="nav__content__links__list">
-            <a class="nav__content__links--link" href="#contact">
+          <li className="nav__content__links__list">
+            <a className="nav__content__links--link" href="#contact">
               Contact
             </a>
           </li>

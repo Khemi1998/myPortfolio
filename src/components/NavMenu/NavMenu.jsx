@@ -14,21 +14,21 @@ const NavMenu = (props) => {
             className="nav-menu__cross"
             onClick={toggleNav}
           />
-          <ul onClick={toggleNav} class="nav-menu__links">
-            <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#home">Home</a>
+          <ul onClick={toggleNav} className="nav-menu__links">
+            <li className="nav-menu__links__list">
+              <a className="nav-menu__links--link" href="#home">Home</a>
             </li>
-            <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#projects">Projects</a>
+            <li className="nav-menu__links__list">
+              <a className="nav-menu__links--link" href="#projects">Projects</a>
             </li>
-            <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#about">About me</a>
+            <li className="nav-menu__links__list">
+              <a className="nav-menu__links--link" href="#about">About me</a>
             </li>
-            <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#skills">Skills</a>
+            <li className="nav-menu__links__list">
+              <a className="nav-menu__links--link" href="#skills">Skills</a>
             </li>
-            <li class="nav-menu__links__list">
-              <a class="nav-menu__links--link" href="#contact">Contact</a>
+            <li className="nav-menu__links__list">
+              <a className="nav-menu__links--link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
