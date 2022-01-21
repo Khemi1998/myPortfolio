@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <>
       {showNav && <NavMenu toggleNav={toggleNav} />}
-      
+
       <img onClick={toggleNav} className="nav" src={menu} alt="menu" />
 
       <div className="nav__content">
