@@ -3,14 +3,14 @@ import "./Card.scss";
 import Button from "../Button/Button";
 
 const Card = (props) => {
-  const { index, image, title, description, skills, page, code } = props;
+  const { image, title, description, skills, page, code } = props;
 
-  const skill = skills.map((skill) => {
-    return <span className="card__content--skill">{skill} </span>;
+  const skill = skills.map((skill,key) => {
+    return <span key={key} className="card__content--skill">{skill} </span>;
   });
 
   return (
-    <div key={index} className="card">
+    <div className="card">
       <div className="card__content">
         <img className="card__content--img" src={image} alt={title} />
         <h3>{title}</h3>

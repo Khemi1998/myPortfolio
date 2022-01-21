@@ -8,6 +8,7 @@ import ticketTracker from "../../assets/images/project-img/ticketTracker.png";
 import punk from "../../assets/images/project-img/punk.png";
 
 const Projects = () => {
+  //MIGHT SAVE DATA ELSEWHERE?
   const projects = [
     {
       image: calculatorImg,
@@ -51,17 +52,18 @@ const Projects = () => {
     },
   ];
 
-  const projectList = projects.map((project, index) => {
+  const showProjects = projects.map((project, index) => {
     return (
-      <Card
-        index={index}
-        image={project.image}
-        title={project.title}
-        description= {project.description}
-        skills={project.skills}
-        page={project.page}
-        code={project.code}
-      />
+      <div key={index}>
+        <Card
+          image={project.image}
+          title={project.title}
+          description={project.description}
+          skills={project.skills}
+          page={project.page}
+          code={project.code}
+        />
+      </div>
     );
   });
 
@@ -69,9 +71,7 @@ const Projects = () => {
     <div id="projects" className="projects">
       <h2>Projects</h2>
       <div className="projects__container">
-        <div className="projects__container__carousel">
-          {projectList}
-        </div>
+        <div className="projects__container__carousel">{showProjects}</div>
         <img className="projects__container--swipe" src={swipe} alt="swipe" />
       </div>
     </div>
